@@ -29,3 +29,4 @@
 #### Функции: 
 Основная логика приложения реализована в функциях, таких как addTask, deleteTask, doneTask, checkEmptyList, saveToLocalStorage и renderTask.
 
+Посмотреть демо проекта https://iuliiausatova.github.io/ToDoList/
