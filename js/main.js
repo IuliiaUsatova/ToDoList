@@ -35,7 +35,7 @@ function addTask (event) {
   const newTask = {
 	id: Date.now(),
 	text: taskText,
-	done: false
+	done: false,
   }
   //добавляем задачу в массив с задачами
   tasks.push(newTask)
@@ -90,7 +90,7 @@ if (event.target.dataset.action === "done"){
 const id = Number(parentNode.id);
 
 //находим id в массиве 
-const task = tasks.find((task) => tasks.id === id)
+const task = tasks.find((task) => task.id === id)
 
 //проверяем что задача была найдена в массиве
 if (task){
